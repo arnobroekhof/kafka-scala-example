@@ -19,5 +19,5 @@ java -jar kafka-consumer/target/kafka-consumer-LOCAL.jar localhost:9092 MyConsum
 ## Kafka Producer
 ```bash
 mvn clean package
-
+java -jar kafka-producer/target/kafka-producer-LOCAL.jar 1000 kafka-test localhost:9092
 ```
